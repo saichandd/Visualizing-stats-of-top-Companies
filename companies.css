@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Quicksand';
+	background-color: #f6f6f6;
+}
+
+h1{
+	font-size: 24px;
+	text-align: center;
+}
+
+.nav-bar{
+	position: relative;
+	height: 100vh;
+	width: 25%;
+	padding: 50px 50px 40px 50px;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.15);
+	z-index: 5;
+	overflow-x: hidden;
+	transition: 0.4s;
+	background-color: white;
+}
+
+
+.nav-bar > h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+/*sidebar items*/
+#children-list{
+	list-style-type: none;
+}
+
+#children-list li{
+	color: #354052;
+	font-size: 14px;
+	line-height: 40px;
+	cursor: pointer;
+	text-align: center;
+	text-transform: capitalize;
+}
+#children-list li:hover{
+	transition: 0.25s;
+	color: #00a8ff;
+}
+/*active item*/
+#children-list li.active{
+	font-weight: 700;
+	color: #00a8ff;
+}
+
+.chart-box{
+	position: absolute;
+	width: 75%;
+	left: 25%;
+	top: 0;
+	margin-top: 10vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.chart-box div, .chart-box svg{
+	margin: 0 auto;
+}
+
+
+svg{
+	display: block;
+	overflow:visible;
+}
+
+
+#slidecontainer {
+	padding-top: 20px;
+	width: 300px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #cdeeff;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #0076b3;
+  cursor: pointer;
+}
+
+
+/*tool tip*/
+.tool-tip{
+	font-size: 12px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+
+#chart-type{
+	text-transform: capitalize;
+	padding-bottom: 40px;
+}
+

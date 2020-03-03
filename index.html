@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>fortune 1000</title>
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="companies.css">
+<body>
+	<nav class="nav-bar">
+		<h2>Fortune 1000</h2>
+		<ul id="children-list">
+
+		</ul>
+	</nav>
+	<div class="chart-box">
+		<h1 id="chart-type"></h1>
+		<div id="chart"></div>
+		<div id="slidecontainer">
+  			<input type="range" min="2" max="12" value="9" class="slider" id="n_bins">
+		</div>
+	</div>
+</body>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script type="text/javascript" src="drawcharts.js"></script>
