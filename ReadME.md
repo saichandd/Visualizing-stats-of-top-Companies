@@ -1,13 +1,15 @@
-#Fortune 1000
+# Fortune 1000
+live: https://saichandd.github.io/Visualizing-stats-of-top-Companies/
 
 
-##Dependencies
+## Dependencies
 - Nodejs
 - d3
 
-##Running
+## Running
 
-from command line run
+to tryout the project, run ```node server.js``` from cli
 
-```node server.js```
-
+## Credits
+CSE 564 Assignment
+Kalus Mueller
